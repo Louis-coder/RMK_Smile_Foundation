@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>RMK Smile Foundation</title>
+  <link rel="icon" type="img/png" href="images/R.M.K logo.png" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <script src="https://js.paystack.co/v1/inline.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="nav-left">
+        <img src="images/R.M.K logo.png" alt="RMK Logo" class="nav-logo" />
+        <a href="index.html" class="brand">RMK Smile Foundation</a>
+      </div>
+
+      <button id="menu-toggle" aria-label="Open menu">☰</button>
+
+      <ul id="nav-links" class="nav-links">
+        <li><a href="index.html">
+          <i class="fas fa-home"></i> Home</a>
+        </li>
+        <li><a href="index.html#about">
+          <i class="fas fa-info-circle"></i> About</a>
+        </li>
+        <li><a href="index.html#programs">
+          <i class="fas fa-project-diagram"></i> Programs</a>
+        </li>
+        <!--<li><a href="#gallery">
+        <i class="fas fa-photo-video"></i> Gallery</a>
+        </li>-->
+        <li><a href="index.html#donate">
+          <i class="fas fa-hand-holding-heart"></i> Donate</a>
+        </li>
+        <li><a href="index.html#contact">
+          <i class="fas fa-envelope"></i> Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home" class="hero1">
+      <div class="hero-text">
+       <!------ <h1>Bringing Smiles, Changing Lives</h1>
+        <p>Empowering communities through compassion, education, and sustainable development.</p>
+        <a href="#donate" class="btn">Donate Now</a> --->
+      </div>
+    </section>
+<div class="describtion">
+  <h2> RMK SMILE FOUNDATION SCHOOL OUTREACH</h2>
+  <p>
+ 
+We are thrilled to share the success of our recent outreach initiative at Timstimshwe D/A Basic School located in Daboase in the Western Region of Ghana. The school has been facing significant challenges due to limited resources. 
+
+On 16th May, 2025 RMK SMILE FOUNDATION proudly donated some educational materials to support the students and teachers in their pursuit of knowledge.Our team initially visited the school and engaged with the students and staff to witness their concerns that need immediate attention.  Upon our visit to the school, we provided:
+Books and Learning Materials: Over 400 Exercise Books were shared with the primary students. We provided mathsets, pens, and rulers to the candidates. Other items that were shared included crayons, pencils, erasers sharpeners, and many more.
+The heartfelt gratitude expressed by the school administration and the enthusiasm of the students reaffirmed the importance of our mission. It was inspiring to see the smiles on their faces as they received the donations, and we are confident that these resources will significantly improve their educational experience.We extend our deepest appreciation to all volunteers and donors who made this outreach possible. To the executives of the foundation, the council members and all members of the foundation, we say a very big thank you for your unwavering support and commitment.
+Let’s continue to spread smiles and make a lasting impact in the lives of those who need it most. Thank you all.<br>
+<span>RMK SMILE FOUNDATION : YOUR SURVIVAL IS OUR CONCERN</span></p>
+</div>
+
+<div class="gallery1">
+  <h2>Gallery</h2>
+  <div class="gallery-content">
+    <img src="images/hero3.jpeg" alt="pic">
+    <img src="images/Slide1.jpeg" alt="pic">
+    <img src="images/Slide2.jpeg" alt="pic">
+    <img src="images/Slide3.jpeg" alt="pic">
+  </div>
+    
+</div>
+
+<!-- Lightbox Modal -->
+<div id="lightbox">
+    <img id="lightbox-img" src="">
+</div>
+
+  </main>
+  <footer>
+    <div class="footer-inner">
+      <img src="images/R.M.K logo.png" alt="logo" class="footer-logo">
+      <p>&copy; 2025 RMK Smile Foundation. All rights reserved | Powered by NanobyteX</p>
+
+      <div class="socials">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-telegram"></i></a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script>
+    const backToTopBtn = document.getElementById('backToTop');
+    
+    window.addEventListener('scroll', () => {
+      if(document.documentElement.scrollTop > 200) {
+        backToTopBtn.style.display = 'block';
+      } else {
+        backToTopBtn.style.display = 'none';
+      }
+    });
+
+    backToTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+</body>
+</html>

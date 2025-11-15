@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>RMK Smile Foundation</title>
+  <link rel="icon" type="img/png" href="images/R.M.K logo.png" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <script src="https://js.paystack.co/v1/inline.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="nav-left">
+        <img src="images/R.M.K logo.png" alt="RMK Logo" class="nav-logo" />
+        <a href="index.html" class="brand">RMK Smile Foundation</a>
+      </div>
+
+      <button id="menu-toggle" aria-label="Open menu">☰</button>
+
+      <ul id="nav-links" class="nav-links">
+        <li><a href="index.html">
+          <i class="fas fa-home"></i> Home</a>
+        </li>
+        <li><a href="#about">
+          <i class="fas fa-info-circle"></i> About</a>
+        </li>
+        <li><a href="index.html#programs">
+          <i class="fas fa-project-diagram"></i> Programs</a>
+        </li>
+        <!--<li><a href="#gallery">
+        <i class="fas fa-photo-video"></i> Gallery</a>
+        </li>-->
+        <li><a href="index.html#donate">
+          <i class="fas fa-hand-holding-heart"></i> Donate</a>
+        </li>
+        <li><a href="index.html#contact">
+          <i class="fas fa-envelope"></i> Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home" class="hero3">
+      <div class="hero-text">
+       <h1>ABOUT US</h1>
+       <!---------- <p>Empowering communities through compassion, education, and sustainable development.</p>
+        <a href="#donate" class="btn">Donate Now</a> --->
+      </div>
+    </section>
+    <section id="about-us" class="about-us">
+        <div class="col-left">
+   <h3>WHO WE ARE</h3>
+   <p>RMK Smile Foundation is a non-governmental, non-profit organization dedicated to bringing hope, support, and 
+    opportunities to underserved communities. Founded in June 2024, the foundation is the brainchild of Miss Rith Marie Kowfie, 
+    whose passion for humanitarian service and community development inspired the creation of a platform that brings smiles to the faces of the less privileged.
+    Built on compassion, integrity, and a deep commitment to social impact, RMK Smile Foundation focuses on supporting vulnerable children, 
+    struggling schools, and marginalized communities across Ghana. We believe every person regardless of background deserves access to essential needs, 
+    quality education, and a fair chance to thrive. We exist to restore hope, uplift communities, and ensure every child and family has a reason to smile.
+With every project we undertake, we aim to break cycles of poverty and create lasting change.</p>
+        </div>
+   <!------     <div class="col-right">
+<img src="images/hero2.jpeg">
+        </div> --->
+     
+    </section>
+    <section id="about" class="about">
+      <h2></h2>
+      <div class="about-grid">
+        <div class="about-card">
+          <h3><i class="fas fa-eye"></i> Vision</h3>
+          <p>To create a society where everyone has access to essential needs, quality education,
+            and equal opportunities for growth and development.</p>
+        </div>
+        <div class="about-card">
+          <h3><i class="fas fa-bullseye"></i> Mission</h3>
+          <p>To empower marginalized communities and schools by providing access to quality education,
+            health support and equal opportunities.</p>
+        </div>
+      </div>
+      </section>
+
+       <section id="message" class="message">
+        <div class="founder-message">
+        <h3><i class="fas fa-message"></i>Founder's Message</h3>
+      <p>
+        As the founder of RMK Smile Foundation, I am grateful for the chance to brighten lives and open doors of opportunity for children, 
+        the aged, and vulnerable communities. Each act of kindness we offer is a small spark that grows into hope, and it is this hope that guides our mission. 
+        Together with our supporters, we are building a future where every smile is nurtured, every child is encouraged, and every community feels seen and valued. Thank you<br>
+        <span>Ruth Marie Kowfie</span>
+      </p>
+      </div>
+       </section>
+
+       <section id="executive" class="executive">
+      <h2>EXECUTIVES</h2>
+      <div class="executive-grid">
+        <article class="executive-card">
+          <img src="images/founder.jpeg" alt="#">
+          <div class="executive-body">
+            <h4>FOUNDER</h4>
+            <p>RUTH MARIE KOWFIE</p>
+          </div>
+        </article>
+
+        <article class="executive-card">
+        
+          <img src="images/prayer director.jpeg" alt="#">
+          <div class="executive-body">
+            <h4>OUTREACH COORDINATOR & PRAYER DIRECTOR</h4>
+            <p>JUSTICE MINGLE</p>
+          </div>
+        </article>
+
+        <article class="executive-card">
+          <img src="images/coordinator.jpeg" alt="#">
+          <div class="executive-body">
+            <h4>DIRECTOR</h4>
+            <p>ANTHONY ADUONU ESSIAW</p>
+          </div>
+        </article>
+      
+
+       <article class="executive-card">
+          <img src="images/secetary.jpeg" alt="#">
+          <div class="executive-body">
+            <h4>EXECUTIVE SECRETARY</h4>
+            <p>CALEB MENSAH</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>GET IN TOUCH</h2>
+      <p>Reach out for inquiries, partnerships, or to volunteer with us.</p>
+      <form action="https://formspree.io/f/manpzaep" method="POST" id="contactForm">
+        <input type="text" id="contactName" placeholder="Your Name" required>
+        <input type="email" id="contactEmail" placeholder="Your Email" required>
+        <textarea id="contactMessage" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">
+          <i class="fas fa-paper-plane"></i> Send Message</button>
+      </form>
+    </section>
+    </main>
+    <footer>
+    <div class="footer-inner">
+      <img src="images/R.M.K logo.png" alt="logo" class="footer-logo">
+      <p>&copy; 2025 RMK Smile Foundation. All rights reserved | Powered by NanobyteX</p>
+
+      <div class="socials">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-telegram"></i></a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script>
+    const backToTopBtn = document.getElementById('backToTop');
+    
+    window.addEventListener('scroll', () => {
+      if(document.documentElement.scrollTop > 200) {
+        backToTopBtn.style.display = 'block';
+      } else {
+        backToTopBtn.style.display = 'none';
+      }
+    });
+
+    backToTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+    </body>
+    </html>
