@@ -220,7 +220,7 @@ footer { background:#022c56; color:white; padding:30px 20px; text-align:center; 
 /* Responsive */
 @media (max-width: 900px) {
   .about-grid { grid-template-columns:1fr; }
-  .about-us {margin-top: 5rem; margin-left: 5rem; font-size: 2rem;font-weight: 400; font-family: chalkboard;}
+  .about-us {margin-top: 5rem; margin-left: 2rem; font-size: 2rem;font-weight: 400; font-family: chalkboard;}
   .nav-links { display:none; position:absolute; right:0px; top:64px; background:var(--blue); padding:16px; flex-direction:column; gap:20px; border-radius:8px; width: 100%;}
   .nav-links.active { display:flex; }
   #menu-toggle { display:block; color:#fff; }
