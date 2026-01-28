@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>RMK Smile Foundation</title>
+  <link rel="icon" type="img/png" href="images/R.M.K logo.png" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <script src="https://js.paystack.co/v1/inline.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="nav-left">
+        <img src="images/R.M.K logo.png" alt="RMK Logo" class="nav-logo" />
+        <a href="index.html" class="brand">RMK Smile Foundation</a>
+      </div>
+
+      <button id="menu-toggle" aria-label="Open menu">☰</button>
+
+      <ul id="nav-links" class="nav-links">
+        <li><a href="index.html">
+          <i class="fas fa-home"></i> Home</a>
+        </li>
+        <li><a href="about.html">
+          <i class="fas fa-info-circle"></i> About</a>
+        </li>
+        <li><a href="#programs">
+          <i class="fas fa-project-diagram"></i> Programs</a>
+        </li>
+        <!--<li><a href="#gallery">
+        <i class="fas fa-photo-video"></i> Gallery</a>
+        </li>-->
+        <li><a href="#donate">
+          <i class="fas fa-hand-holding-heart"></i> Donate</a>
+        </li>
+        <li><a href="#contact">
+          <i class="fas fa-envelope"></i> Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home" class="hero2">
+      <div class="hero-text">
+       <!------ <h1>Bringing Smiles, Changing Lives</h1>
+        <p>Empowering communities through compassion, education, and sustainable development.</p>
+        <a href="#donate" class="btn">Donate Now</a> --->
+      </div>
+    </section>
+<div class="describtion">
+  <h2> RMK SMILE FOUNDATION - ORPHANAGE VISIT</h2>
+  <p>
+ 
+On the 21st of December 2024, the RMK Smile Foundation had the incredible opportunity to spend time at the Royal Promise Orphanage at Nkanfoa - Cape Coast  where we were received and greeted with smiles, laughter and warmth hearts filled with joy. 
+
+Our visit was a memorable and remarkable one since the day marked the first outreach the Foundation embarked after its establishment. We donated a few items such as rice, oil, drinks, fruits, water, and a few others. Most importantly is the time and attention we spent with the kids through bible studies, worship and dance, and fun games.
+
+These moments remind us of the impact we can have when we come together to uplift others. Thank you to everyone who contributed to making this visit possible. 
+Just as Christ loved us so as we have to love one another.<br>
+<span>#rmksmilefoundation# #yoursurvivalisourconcern#</span>
+</p>
+</div>
+
+<div class="gallery1">
+  <h2>Gallery</h2>
+  <div class="gallery-content">
+    <img src="images/hero2.jpeg" alt="pic">
+    <img src="images/Slide4.jpeg" alt="pic">
+    <img src="images/hero1.jpeg" alt="pic">
+  </div>
+    
+</div>
+
+<!-- Lightbox Modal -->
+<div id="lightbox">
+    <img id="lightbox-img" src="">
+</div>
+
+
+  </main>
+  <footer>
+    <div class="footer-inner">
+      <img src="images/R.M.K logo.png" alt="logo" class="footer-logo">
+      <p>&copy; 2025 RMK Smile Foundation. All rights reserved | Powered by NanobyteX</p>
+
+      <div class="socials">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-telegram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const galleryImages = document.querySelectorAll('.gallery1 img');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+
+    galleryImages.forEach(img => {
+        img.addEventListener('click', () => {
+            lightboxImg.src = img.src;
+            lightbox.style.display = 'flex';
+        });
+    });
+
+    // Close when clicking anywhere
+    lightbox.addEventListener('click', () => {
+        lightbox.style.display = 'none';
+    });
+</script>
+
+<script src="script.js"></script>
+  <script>
+    const backToTopBtn = document.getElementById('backToTop');
+    
+    window.addEventListener('scroll', () => {
+      if(document.documentElement.scrollTop > 200) {
+        backToTopBtn.style.display = 'block';
+      } else {
+        backToTopBtn.style.display = 'none';
+      }
+    });
+
+    backToTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+</body>
+</html>
